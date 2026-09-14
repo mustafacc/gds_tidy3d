@@ -59,7 +59,7 @@ all         = ["gds_fdtd[tidy3d,beamz,gdsfactory,prefab,siepic]"]    # every eng
 
 dev = [
   "pip>=26.2.1",
-  "build>=1.5.0",  # `just build` (sdist+wheel); releases publish via CI trusted publishing
+  "build>=1.6.1",  # `just build` (sdist+wheel); releases publish via CI trusted publishing
   "pytest>=9.1.1",
   "pytest-cov>=7.1.0",
   "coverage",
